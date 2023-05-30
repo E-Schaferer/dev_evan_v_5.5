@@ -39,8 +39,8 @@ locations:
         database: COALESCE_SAMPLE_DATABASE
         schema: TPCH_SF001
       "4":
-        database: DEV_EVAN_V_5_5
-        schema: PROD_STAGING
+        database: COALESCE_SAMPLE_DATABASE
+        schema: TPCH_SF001
 macros: {}
 packages: {}
 projects: {}
