@@ -27,7 +27,7 @@ steps:
               - columnReferences:
                   - columnCounter: c9fe87e6-52ee-44b2-9074-c6a7bf37f2e5
                     stepCounter: bd1da38c-99aa-4b50-8a6b-b63898fc62f5
-                transform: ""
+                transform: "{}"
           - columnReference:
               columnCounter: 849f1d6e-2300-4501-9041-03411b8fb9a4
               stepCounter: b5a0a5e5-420f-4da5-b31d-1f143eae275e
