@@ -24,7 +24,7 @@ steps:
             description: ""
             hashColumns: []
             hashDetails: null
-            name: R_REGIONKEY
+            name: heehouser
             nullable: false
             sourceColumnReferences:
               - columnReferences:
