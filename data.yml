@@ -1,6 +1,14 @@
 defaultStorageMapping: SAMPLE
 jobs: {}
 locations:
+  MISSING:
+    mappingDefinitions:
+      "2":
+        database: ""
+        schema: ""
+      "3":
+        database: ""
+        schema: ""
   SAMPLE:
     mappingDefinitions:
       "2":
