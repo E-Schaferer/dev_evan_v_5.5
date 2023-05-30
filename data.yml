@@ -16,12 +16,18 @@ locations:
       "3":
         database: DEV_EVAN_V_5_5
         schema: QA_STAGING
+      "4":
+        database: DEV_EVAN_V_5_5
+        schema: QA_STAGING
   THIRD:
     mappingDefinitions:
       "2":
         database: DEV_EVAN_V_5_5
         schema: QA_RAW
       "3":
+        database: DEV_EVAN_V_5_5
+        schema: QA_RAW
+      "4":
         database: DEV_EVAN_V_5_5
         schema: QA_RAW
   WORK:
@@ -32,6 +38,9 @@ locations:
       "3":
         database: COALESCE_SAMPLE_DATABASE
         schema: TPCH_SF001
+      "4":
+        database: DEV_EVAN_V_5_5
+        schema: PROD_STAGING
 macros: {}
 packages: {}
 projects: {}
