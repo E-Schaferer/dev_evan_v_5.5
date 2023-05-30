@@ -1,5 +1,12 @@
 defaultStorageMapping: SAMPLE
-jobs: {}
+jobs:
+  Job-1:
+    excludeSelector: ""
+    id: 1
+    includeSelector: "{ location: SAMPLE name: STG_PART } OR { location: WORK name: CUSTOMER } OR { location: WORK name: DAILY_14_TOTAL_SHORT } OR { location: WORK name: LINEITEM } OR { location: WORK name: NATION } OR { location: WORK name: ORDERS } OR { location: WORK name: PART } OR { location: WORK name: PARTSUPP } OR { location: WORK name: REGION } OR { location: WORK name: SUPPLIER } OR { location: SAMPLE name: STG_PART1 }"
+    name: New Job
+    steps: []
+    subgraphs: []
 locations:
   SAMPLE:
     mappingDefinitions:
