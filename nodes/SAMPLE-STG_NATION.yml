@@ -1,5 +1,5 @@
 steps:
-  VIEW_NATION-9b8909bb-47d9-4916-880b-dbb166045cb9:
+  STG_NATION-64a81eed-ed35-4e7a-b30f-fe2db50ab17b:
     operation:
       config:
         insertStrategy: INSERT
@@ -13,13 +13,13 @@ steps:
       isDataVault: false
       isMultisource: false
       locationName: SAMPLE
-      materializationType: view
+      materializationType: table
       metadata:
         appliedNodeTests: []
         columns:
           - columnReference:
-              columnCounter: 090a0061-dccf-485b-a436-7213133b7fe0
-              stepCounter: 9b8909bb-47d9-4916-880b-dbb166045cb9
+              columnCounter: 97e40399-cbf7-40a7-85d9-0e5dd74c58a3
+              stepCounter: 64a81eed-ed35-4e7a-b30f-fe2db50ab17b
             dataType: NUMBER(38,0)
             description: ""
             hashColumns: []
@@ -28,12 +28,12 @@ steps:
             nullable: false
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 97e40399-cbf7-40a7-85d9-0e5dd74c58a3
-                    stepCounter: 64a81eed-ed35-4e7a-b30f-fe2db50ab17b
+                  - columnCounter: 92045f81-c176-42df-bec8-0d37d906fca8
+                    stepCounter: a94372f7-75f6-4ee3-8682-f91e746341b1
                 transform: ""
           - columnReference:
-              columnCounter: b885755a-8b04-46f1-9a59-c1f7b6eecf93
-              stepCounter: 9b8909bb-47d9-4916-880b-dbb166045cb9
+              columnCounter: a4bb9709-6297-46f8-beab-2fb78840907d
+              stepCounter: 64a81eed-ed35-4e7a-b30f-fe2db50ab17b
             dataType: VARCHAR(25)
             description: ""
             hashColumns: []
@@ -42,12 +42,12 @@ steps:
             nullable: false
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: a4bb9709-6297-46f8-beab-2fb78840907d
-                    stepCounter: 64a81eed-ed35-4e7a-b30f-fe2db50ab17b
+                  - columnCounter: dbb45dc4-5371-458a-aff4-c680ed51cfc1
+                    stepCounter: a94372f7-75f6-4ee3-8682-f91e746341b1
                 transform: ""
           - columnReference:
-              columnCounter: ff99ac1e-8b43-4c60-ac49-42b733ed5d08
-              stepCounter: 9b8909bb-47d9-4916-880b-dbb166045cb9
+              columnCounter: eb46c93b-9102-4129-9a38-e37b20f92cf6
+              stepCounter: 64a81eed-ed35-4e7a-b30f-fe2db50ab17b
             dataType: NUMBER(38,0)
             description: ""
             hashColumns: []
@@ -56,12 +56,12 @@ steps:
             nullable: false
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: eb46c93b-9102-4129-9a38-e37b20f92cf6
-                    stepCounter: 64a81eed-ed35-4e7a-b30f-fe2db50ab17b
+                  - columnCounter: 40e4b31f-56d3-450a-bc83-f7b2e5eba05c
+                    stepCounter: a94372f7-75f6-4ee3-8682-f91e746341b1
                 transform: ""
           - columnReference:
-              columnCounter: 17d8125d-498f-4872-94c3-491f9ee5bd3a
-              stepCounter: 9b8909bb-47d9-4916-880b-dbb166045cb9
+              columnCounter: 44463cf5-ff8d-42fb-8861-159ce0abacc5
+              stepCounter: 64a81eed-ed35-4e7a-b30f-fe2db50ab17b
             dataType: VARCHAR(152)
             description: ""
             hashColumns: []
@@ -70,8 +70,8 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 44463cf5-ff8d-42fb-8861-159ce0abacc5
-                    stepCounter: 64a81eed-ed35-4e7a-b30f-fe2db50ab17b
+                  - columnCounter: c2ba6542-d2c0-400e-9002-7f2f174c559e
+                    stepCounter: a94372f7-75f6-4ee3-8682-f91e746341b1
                 transform: ""
         cteString: ""
         enabledColumnTestIDs: []
@@ -83,11 +83,11 @@ steps:
                 nodeName: NATION
             join:
               joinCondition: FROM {{ ref('WORK', 'NATION') }} "NATION"
-            name: VIEW_NATION
+            name: STG_NATION
             noLinkRefs: []
-      name: VIEW_NATION
+      name: STG_NATION
       overrideSQL: false
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: 9b8909bb-47d9-4916-880b-dbb166045cb9
+    stepCounter: 64a81eed-ed35-4e7a-b30f-fe2db50ab17b
