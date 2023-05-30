@@ -1,5 +1,5 @@
 steps:
-  DAILY_14_TOTAL_SHORT-55de8d6a-1182-4b90-9f1e-f512b31b5ea8:
+  DAILY_14_TOTAL_SHORT-3f61e27d-4b52-4429-93b8-c1207bc076bf:
     operation:
       database: ""
       dataset: ""
@@ -14,8 +14,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: 7d47fcf1-3aeb-4c36-9b99-941d3ccafef5
-              stepCounter: 55de8d6a-1182-4b90-9f1e-f512b31b5ea8
+              columnCounter: baaedde9-62ba-4308-b67a-05160cb009ae
+              stepCounter: 3f61e27d-4b52-4429-93b8-c1207bc076bf
             config: {}
             dataType: VARIANT
             defaultValue: ""
@@ -29,8 +29,8 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: d87689b0-05c8-4253-b715-4dd0a33c63fd
-              stepCounter: 55de8d6a-1182-4b90-9f1e-f512b31b5ea8
+              columnCounter: deb16d2d-00f2-4505-9f03-91241f3651ff
+              stepCounter: 3f61e27d-4b52-4429-93b8-c1207bc076bf
             config: {}
             dataType: TIMESTAMP_NTZ(9)
             defaultValue: ""
@@ -46,4 +46,4 @@ steps:
       sqlType: Source
       table: DAILY_14_TOTAL_SHORT
       type: sourceInput
-    stepCounter: 55de8d6a-1182-4b90-9f1e-f512b31b5ea8
+    stepCounter: 3f61e27d-4b52-4429-93b8-c1207bc076bf
