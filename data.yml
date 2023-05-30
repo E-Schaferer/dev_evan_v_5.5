@@ -1,4 +1,4 @@
-defaultStorageMapping: STG
+defaultStorageMapping: SRC
 jobs: {}
 locations:
   SRC:
@@ -9,8 +9,8 @@ locations:
   STG:
     mappingDefinitions:
       "2":
-        database: QA_DEPLOY_PHASES
-        schema: QA_DEPLOY_PHASE
+        database: DEV_EVAN_V_5_5
+        schema: QA_STAGING
 macros: {}
 packages: {}
 projects: {}
