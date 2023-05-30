@@ -146,13 +146,15 @@ steps:
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
-          - customSQL:
+          - aliases:
+              PART: e0d94e36-e3bf-4322-a9ca-4fb3af4f56e7
+            customSQL:
               customSQL: ""
             dependencies:
-              - locationName: SAMPLE
-                nodeName: STG_PART
+              - locationName: WORK
+                nodeName: PART
             join:
-              joinCondition: FROM {{ ref('SAMPLE', 'STG_PART') }} "STG_PART"
+              joinCondition: FROM {{ ref('WORK', 'PART') }} "PART"
             name: STG_PART1
             noLinkRefs: []
       name: STG_PART1
