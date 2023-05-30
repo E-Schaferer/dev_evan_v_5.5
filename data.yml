@@ -1,14 +1,6 @@
 defaultStorageMapping: SAMPLE
 jobs: {}
 locations:
-  MISSING:
-    mappingDefinitions:
-      "2":
-        database: ""
-        schema: ""
-      "3":
-        database: ""
-        schema: ""
   SAMPLE:
     mappingDefinitions:
       "2":
@@ -23,8 +15,8 @@ locations:
         database: DEV_EVAN_V_5_5
         schema: QA_RAW
       "3":
-        database: ""
-        schema: ""
+        database: DEV_EVAN_V_5_5
+        schema: QA_RAW
   WORK:
     mappingDefinitions:
       "2":
