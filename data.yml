@@ -1,4 +1,4 @@
-defaultStorageMapping: SRC
+defaultStorageMapping: STG
 jobs: {}
 locations:
   SRC:
