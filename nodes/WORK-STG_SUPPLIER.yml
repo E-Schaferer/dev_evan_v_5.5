@@ -24,7 +24,7 @@ steps:
             description: SF*10,000 are populated
             hashColumns: []
             hashDetails: null
-            name: S_SUPPKEY
+            name: heehouser
             nullable: false
             sourceColumnReferences:
               - columnReferences:
