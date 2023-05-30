@@ -13,7 +13,7 @@ steps:
       isDataVault: false
       isMultisource: false
       locationName: SAMPLE
-      materializationType: table
+      materializationType: view
       metadata:
         appliedNodeTests: []
         columns:
