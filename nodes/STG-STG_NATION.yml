@@ -1,5 +1,5 @@
 steps:
-  STG_NATION-6c1a09da-1346-407f-a217-b888429d5b51:
+  STG_NATION-bd1da38c-99aa-4b50-8a6b-b63898fc62f5:
     operation:
       config:
         insertStrategy: INSERT
@@ -12,14 +12,14 @@ steps:
       description: ""
       isDataVault: false
       isMultisource: false
-      locationName: SRC
+      locationName: STG
       materializationType: table
       metadata:
         appliedNodeTests: []
         columns:
           - columnReference:
-              columnCounter: a4f980fd-8ea8-472a-90d2-97d465a258c4
-              stepCounter: 6c1a09da-1346-407f-a217-b888429d5b51
+              columnCounter: c9fe87e6-52ee-44b2-9074-c6a7bf37f2e5
+              stepCounter: bd1da38c-99aa-4b50-8a6b-b63898fc62f5
             dataType: NUMBER(38,0)
             description: ""
             hashColumns: []
@@ -32,8 +32,8 @@ steps:
                     stepCounter: 73fd7b85-40a0-4295-bd1e-0ce9b588694c
                 transform: ""
           - columnReference:
-              columnCounter: 33c48657-de54-42e6-872a-e7ef46e84bdb
-              stepCounter: 6c1a09da-1346-407f-a217-b888429d5b51
+              columnCounter: 7aae3520-3560-4886-a895-c71aa46d425c
+              stepCounter: bd1da38c-99aa-4b50-8a6b-b63898fc62f5
             dataType: VARCHAR(25)
             description: ""
             hashColumns: []
@@ -46,8 +46,8 @@ steps:
                     stepCounter: 73fd7b85-40a0-4295-bd1e-0ce9b588694c
                 transform: ""
           - columnReference:
-              columnCounter: 81f819d0-fb82-409f-81b7-062816ec7a38
-              stepCounter: 6c1a09da-1346-407f-a217-b888429d5b51
+              columnCounter: edbb1d5d-70f0-489c-8b1a-0cd95bc7b2c6
+              stepCounter: bd1da38c-99aa-4b50-8a6b-b63898fc62f5
             dataType: NUMBER(38,0)
             description: ""
             hashColumns: []
@@ -60,8 +60,8 @@ steps:
                     stepCounter: 73fd7b85-40a0-4295-bd1e-0ce9b588694c
                 transform: ""
           - columnReference:
-              columnCounter: a41d5b59-095f-48c9-a530-a589be15a5ac
-              stepCounter: 6c1a09da-1346-407f-a217-b888429d5b51
+              columnCounter: d6784689-7759-405e-b3ee-9f277f6cc25d
+              stepCounter: bd1da38c-99aa-4b50-8a6b-b63898fc62f5
             dataType: VARCHAR(152)
             description: ""
             hashColumns: []
@@ -90,4 +90,4 @@ steps:
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: 6c1a09da-1346-407f-a217-b888429d5b51
+    stepCounter: bd1da38c-99aa-4b50-8a6b-b63898fc62f5
