@@ -1,46 +1,16 @@
 defaultStorageMapping: SAMPLE
-jobs:
-  Job-1:
-    excludeSelector: ""
-    id: 1
-    includeSelector: "{ location: SAMPLE name: STG_PART } OR { location: WORK name: CUSTOMER } OR { location: WORK name: DAILY_14_TOTAL_SHORT } OR { location: WORK name: LINEITEM } OR { location: WORK name: NATION } OR { location: WORK name: ORDERS } OR { location: WORK name: PART } OR { location: WORK name: PARTSUPP } OR { location: WORK name: REGION } OR { location: WORK name: SUPPLIER } OR { location: SAMPLE name: STG_PART1 }"
-    name: New Job
-    steps: []
-    subgraphs: []
+jobs: {}
 locations:
   SAMPLE:
     mappingDefinitions:
       "2":
-        database: DEV_EVAN_V_5_5
-        schema: QA_STAGING
-      "3":
-        database: DEV_EVAN_V_5_5
-        schema: QA_STAGING
-      "4":
-        database: DEV_EVAN_V_5_5
-        schema: QA_STAGING
-  THIRD:
-    mappingDefinitions:
-      "2":
-        database: DEV_EVAN_V_5_5
-        schema: QA_RAW
-      "3":
-        database: DEV_EVAN_V_5_5
-        schema: QA_RAW
-      "4":
-        database: DEV_EVAN_V_5_5
-        schema: QA_RAW
+        database: COALESCE_SAMPLE_DATABASE
+        schema: TPCH_SF001
   WORK:
     mappingDefinitions:
       "2":
-        database: COALESCE_SAMPLE_DATABASE
-        schema: TPCH_SF001
-      "3":
-        database: COALESCE_SAMPLE_DATABASE
-        schema: TPCH_SF001
-      "4":
-        database: COALESCE_SAMPLE_DATABASE
-        schema: TPCH_SF001
+        database: DEV_EVAN_V_5_5
+        schema: QA_STAGING
 macros: {}
 packages: {}
 projects: {}
