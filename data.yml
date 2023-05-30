@@ -9,6 +9,14 @@ locations:
       "3":
         database: DEV_EVAN_V_5_5
         schema: QA_STAGING
+  THIRD:
+    mappingDefinitions:
+      "2":
+        database: DEV_EVAN_V_5_5
+        schema: QA_RAW
+      "3":
+        database: ""
+        schema: ""
   WORK:
     mappingDefinitions:
       "2":
