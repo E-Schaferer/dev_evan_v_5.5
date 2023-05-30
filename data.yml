@@ -1,12 +1,12 @@
-defaultStorageMapping: SAMPLE
+defaultStorageMapping: SRC
 jobs: {}
 locations:
-  SAMPLE:
+  SRC:
     mappingDefinitions:
       "2":
         database: COALESCE_SAMPLE_DATABASE
         schema: TPCH_SF001
-  WORK:
+  STG:
     mappingDefinitions:
       "2":
         database: QA_DEPLOY_PHASES
