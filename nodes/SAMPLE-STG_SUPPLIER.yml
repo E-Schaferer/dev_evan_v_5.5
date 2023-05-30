@@ -30,7 +30,7 @@ steps:
               - columnReferences:
                   - columnCounter: 5cbd0c72-0a2a-4353-9bcf-dd7b3c4b06c1
                     stepCounter: 22c8e06f-9370-4dbd-8702-160cf52212f5
-                transform: heeho
+                transform: "{}"
           - columnReference:
               columnCounter: 34d071a6-821a-46c3-91a3-4077db1b1b35
               stepCounter: deb9f1c3-8a7e-44ae-9d58-97fc90c0b58e
