@@ -6,7 +6,7 @@ steps:
         preSQL: ""
         testsEnabled: true
       database: ""
-      deployEnabled: true
+      deployEnabled: false
       description: ""
       isDataVault: false
       isMultisource: false
