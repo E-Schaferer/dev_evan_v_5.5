@@ -9,8 +9,8 @@ locations:
   WORK:
     mappingDefinitions:
       "2":
-        database: DEV_EVAN_V_5_5
-        schema: QA_STAGING
+        database: QA_DEPLOY_PHASES
+        schema: QA_DEPLOY_PHASE
 macros: {}
 packages: {}
 projects: {}
@@ -1406,7 +1406,7 @@ stepTypes:
     version: 1
   StepType-View:
     id: View
-    isDisabled: true
+    isDisabled: false
     metadata:
       defaultStorageLocation: null
       error: null
