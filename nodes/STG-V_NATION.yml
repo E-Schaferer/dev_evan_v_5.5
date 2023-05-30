@@ -25,8 +25,8 @@ steps:
             nullable: false
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 20782504-b15f-4897-96a6-3a598621f6d7
-                    stepCounter: 73fd7b85-40a0-4295-bd1e-0ce9b588694c
+                  - columnCounter: c9fe87e6-52ee-44b2-9074-c6a7bf37f2e5
+                    stepCounter: bd1da38c-99aa-4b50-8a6b-b63898fc62f5
                 transform: ""
           - columnReference:
               columnCounter: 849f1d6e-2300-4501-9041-03411b8fb9a4
@@ -39,8 +39,8 @@ steps:
             nullable: false
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 544b916c-3a72-4154-910d-b806d1e2d163
-                    stepCounter: 73fd7b85-40a0-4295-bd1e-0ce9b588694c
+                  - columnCounter: 7aae3520-3560-4886-a895-c71aa46d425c
+                    stepCounter: bd1da38c-99aa-4b50-8a6b-b63898fc62f5
                 transform: ""
           - columnReference:
               columnCounter: 0b9265fd-51c4-4034-9697-19bc288751d6
@@ -53,8 +53,8 @@ steps:
             nullable: false
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 041dcdc2-4ad6-4ace-91ca-116ee09a68bb
-                    stepCounter: 73fd7b85-40a0-4295-bd1e-0ce9b588694c
+                  - columnCounter: edbb1d5d-70f0-489c-8b1a-0cd95bc7b2c6
+                    stepCounter: bd1da38c-99aa-4b50-8a6b-b63898fc62f5
                 transform: ""
           - columnReference:
               columnCounter: 3fa2f300-9fd7-4f9c-9f83-f77383da504d
@@ -67,19 +67,21 @@ steps:
             nullable: true
             sourceColumnReferences:
               - columnReferences:
-                  - columnCounter: 5190d0d1-6768-42a7-8b73-57872007cdcd
-                    stepCounter: 73fd7b85-40a0-4295-bd1e-0ce9b588694c
+                  - columnCounter: d6784689-7759-405e-b3ee-9f277f6cc25d
+                    stepCounter: bd1da38c-99aa-4b50-8a6b-b63898fc62f5
                 transform: ""
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
-          - customSQL:
+          - aliases:
+              STG_NATION: bd1da38c-99aa-4b50-8a6b-b63898fc62f5
+            customSQL:
               customSQL: ""
             dependencies:
-              - locationName: SRC
-                nodeName: NATION
+              - locationName: STG
+                nodeName: STG_NATION
             join:
-              joinCondition: FROM {{ ref('SRC', 'NATION') }} "NATION"
+              joinCondition: FROM {{ ref('STG', 'STG_NATION') }} "STG_NATION"
             name: V_NATION
             noLinkRefs: []
       name: V_NATION
